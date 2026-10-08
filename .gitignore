@@ -1,0 +1,138 @@
+# ============================
+# Python & Bytecode
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+hf_cache/
+models/
+mindcare/
+uploads/
+vector_store/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================
+# Datasets, Embeddings & Large Arrays
+# ============================
+*.npy
+*.npz
+*.csv
+*.tsv
+*.parquet
+*.feather
+dataset/
+datasets/
+data/raw/
+data/processed/
+test_emb.npy
+train_emb.npy
+val_emb.npy
+
+# ============================
+# Model Weights & Checkpoints
+# ============================
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.model
+*.ckpt
+*.tflite
+*.safetensors
+weights/
+checkpoints/
+
+# ============================
+# Databases & SQLite
+# ============================
+*.db
+*.sqlite
+*.sqlite3
+accounts.db
+
+# ============================
+# Media & Large Audio/Video Files
+# ============================
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.flac
+*.ogg
+sample_video.mp4
+voice.mp3
+
+# ============================
+# Node / Web App
+# ============================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+mindcarewebapp/build/
+mindcarewebapp/.cache/
+build/
+dist/
+
+# ============================
+# Environment / Secrets
+# ============================
+.env
+.env.*
+!.env.example
+*.env
+
+# ============================
+# Large Archives & Documents / Slides
+# ============================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.xlsx
+MindCare Zip.zip
+Capture.PNG
+WhatsApp Image*.jpeg
+FYP1-FinalReport-S26-32-D-MindCare.pdf
+Mental_Health_Tech_Theme_Final.pptx.pdf
+
+# ============================
+# Presentation & HTML Generators / Temp
+# ============================
+*.html
+!mindcarewebapp/public/index.html
+create_pptx.py
+create_editable_pptx.py
+temp_pdf_page_*.png
+temp_html_slide_*.png
+
+# ============================
+# OS & IDE
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,29 @@
+# ── Training (local machine or Colab). Colab already has most of these. ──
+-r requirements.txt
+datasets>=3.0
+scikit-learn>=1.4
+pandas>=2.1
+pyarrow>=15
+nbclient>=0.10        # only needed to run the .ipynb headless
+ipykernel>=6.29
+nbformat>=5.10
+
+# ── Needed ONLY by the older MindCare modules that app.py keeps (each is optional; a missing one returns HTTP 503
+#    for that single endpoint, everything else keeps working). Install what you use. ──
+# Smart-room video / audio / image modules
+torch
+transformers>=4.40
+librosa
+soundfile
+opencv-python
+pillow
+sentence-transformers
+faiss-cpu
+ollama
+# RAG
+pypdf
+python-docx
+anthropic
+torchvision
+# Chat companion: add whatever modules/chat_agent.py imports (e.g. google-generativeai or google-genai)
+# Scrapers: add whatever scrappers/reddit.py and scrappers/twitter.py import (e.g. praw, ntscraper, playwright)

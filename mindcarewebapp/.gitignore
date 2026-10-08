@@ -1,0 +1,93 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+hf_cache/
+models/
+mindcare/
+uploads/
+vector_store/
+
+# ============================
+# Node / React
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.cache/
+
+# ============================
+# Environment / Secrets  ⚠️ CRITICAL
+# ============================
+.env
+.env.*
+!.env.example
+*.env
+
+# ============================
+# Databases
+# ============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================
+# Large Files / Binaries
+# ============================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.joblib
+MindCare Zip.zip
+Capture.PNG
+WhatsApp Image*.jpeg
+
+# ============================
+# FYP Generated Documents
+# ============================
+*.html
+*.pptx
+*.pdf
+create_pptx.py
+create_editable_pptx.py
+temp_pdf_page_*.png
+temp_html_slide_*.png
+
+# ============================
+# OS
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo

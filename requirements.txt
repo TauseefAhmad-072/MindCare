@@ -1,0 +1,17 @@
+# ── MindCare backend (Flask API + text model) ── tested with Python 3.12
+# TensorFlow 2.21 has wheels for Python 3.12/3.13 only. Python 3.14 is NOT supported yet -> use a 3.12 venv.
+tensorflow==2.21.0
+numpy>=1.26
+joblib>=1.3
+flask>=3.0
+flask-cors>=4.0
+python-dotenv>=1.0
+waitress>=3.0                                  # production server on Windows
+gunicorn>=22.0; sys_platform != "win32"        # production server on Linux/macOS
+nest_asyncio
+accelerate>=1.1.0
+absl-py
+requests
+librosa
+soundfile 
+faster-whisper
